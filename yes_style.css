@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fadc04);
+    font-family: 'Pacifico', cursive;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(225, 225, 225, 0.8);
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #c2185b;
+    text-shadow: 3px 3px #ff80ab;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.yes-button {
+    background-color: #ff4081;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.8em;
+    margin-right: 10px;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.yes-button:hover {
+    background-color: #d81b60;
+}
+
+.no-button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.8em;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.no-button:hover {
+    background-color: #d32f2f;
+}
+
+.yes-button:hover, .no-button:hover {
+    transform: scale(1.1);
+}
+
+.gif-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
